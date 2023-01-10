@@ -1,3 +1,6 @@
+'''
+Diffie-Helmann Key
+'''
 def calculate_key(p,alpha,x,y):
     bigY=pow(alpha,y,p)
     key=pow(bigY,x,p)
